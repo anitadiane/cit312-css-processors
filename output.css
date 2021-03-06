@@ -1,0 +1,69 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: black;
+  background-color: lightyellow;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+nav li {
+  float: left;
+  font-size: 20px;
+  display: inline-block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: #98afc7;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+}
+
+.redBox {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  border: solid black 2px;
+}
+
+.blueBox {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  border: solid black 2px;
+}
+
+.greenBox {
+  background-color: green;
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+  border: solid black 2px;
+}
+
+.purpleBox {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  border: solid black 2px;
+}
+
+/*# sourceMappingURL=output.css.map */
